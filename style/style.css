@@ -1,55 +1,100 @@
-@font-face {
-    font-family: myFirstFont;
-    src: url(goodfisb.ttf);
+.navDiv{
+  width: 100%;
+  position: fixed;
+  background-color: #e7e7e7;
+  opacity: 0.9;
 }
-
-body{
-	width: 100%;
-	margin: 0px;
-	padding: 0px;
-	background-color: #F5F5F5;
+.navBar{
+  width: 70%;
+  margin: 0 auto;
 }
-
-.header{
-	width: 100%;
-	height: 450px;
-	background-color: #1D9C72;
+.navBar ul{
+  list-style: none;
 }
-
-ul#nav{
-	float: right;
-	width: 600px;
-	list-style-type: none;
+.navBar ul li{
+  display: inline-block;
+  margin: 10px 10%;
 }
-
-ul#nav li{
-	margin-right: 20px;
-	width: 80px;
-	height: 25px;
-	text-align: center;
-	position: relative;
-	float: left;
-	font-family: myFirstFont;
-	border: 2px solid #FFFFFF;
-	border-radius: 5px;
+#sliderDiv{
+  width: 80%;
+  height: 500px;
 }
-
-ul#nav li a{
-	text-decoration: none;
-	color: #FFFFFF;
+#aboutDiv{
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
 }
-
-ul#nav li:hover{
-	background-color: #FFFFFF;
-	border: 2px solid #1D9C72;
-	color: #1D9C72
+#bookDiv{
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  padding-top: 100px;
+  text-align:center;
 }
-
-ul#nav a:hover{
-	color: #1D9C72
+#bookDiv p{
+  text-align: center;
+  width: 80%;
+  margin: 50px auto;
 }
-.about{
-	width: 90%;
-	height: 400px;
-	margin: 0 auto;
+#contactDiv{
+  width: 100%;
+  height: 500px;
+}
+.contactMain{
+  width: 80%;
+  margin: 100px auto;
+}
+.contactForm{
+  width: 60%;
+  float: right;
+  margin-top: 5%;
+}
+h2{
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-align: center;
+    color: #555555;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+.aboutPara{
+  width: 60%;
+  float: right;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.aboutLogo{
+  width: 25%;
+  height: 200px;
+  margin-left: 5%;
+  float: left;
+  margin-top: 5%;
+  background-color: #66ff66;
+}
+.footer{
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: #e7e7e7;
+}
+#bookDiv button{
+  border: 1px solid #2980b9;
+  width: 15%;
+  height: 12%;
+  background-color: #fff;
+  color: #2980b9;
+  font-size: 15px;
+  border-radius: 3px;
+}
+#bookDiv button:hover{
+  width: 15%;
+  border: 1px solid #fff;
+  height: 12%;
+  background-color: #2980b9;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 3px;
 }
